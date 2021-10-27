@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+
+<% messages.forEach(element => { %>
+  <div class="message-container">
+    <div class="user"><%= element.user %> <span style="font-size: small;">says:</span></div>
+    <div class="text"><%= element.text %> </div>
+    <div class="date"><%= element.added %> </div>
+  </div>
+  <br>
+<% }) %>
+
+<div class="newMessage">
+  <a href="/new">Add a Message</a>
+</div>

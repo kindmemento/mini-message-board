@@ -1,0 +1,51 @@
+.form-container {
+	display: flex;
+	background-color: white;
+	margin: 10vh 25vw 10vh 25vw;
+}
+
+form {
+	display: block;
+	place-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	border-radius: 2%;
+	width: 100%;
+	margin: 10px;
+}
+
+form > * {
+	width: 95%;
+	margin: 10px;
+	padding: 10px;
+}
+
+textarea, input {
+	box-sizing: border-box;
+	word-wrap: break-word;
+	word-break: break-all;
+	resize: none;
+	background: none;
+	border: 1px solid lightgray;
+}
+
+#username {
+	padding: 10px 0 10px 10px;
+}
+
+#messageText {
+	padding: 10px 0 200px 10px;
+}
+
+button {
+	background: lightgray;
+	border: none;
+	transform: color;
+}
+
+button {
+	transition: 0.5s;
+	background: gray;
+	color: white;
+}
